@@ -1,0 +1,31 @@
+{
+  "name": "pgdev",
+  "version": "1.0.0",
+  "description": "Boilerplate",
+  "keywords": [
+    "Phaser",
+    "Phaser 3"
+  ],
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "expose-loader": "0.7.5",
+    "ts-loader": "6.2.1",
+    "typescript": "3.7.2",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.9.0"
+  },
+  "dependencies": {
+    "phaser": "3.20.1"
+  },
+  "scripts": {
+    "dev": "webpack --mode development && webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "prod": "webpack --mode production && webpack-dev-server --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "ISC"
+}
