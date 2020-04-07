@@ -1,5 +1,5 @@
 import { GameDimensions } from "../game";
-import { Player } from "../objects/Player";
+import { Player } from "../objects/player";
 
 interface TweenMap {}
 
